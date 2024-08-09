@@ -1,0 +1,232 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Jay Jones Portfolio</title>
+  </head>
+  <body>
+    <header
+      class="fixed container mx-auto top-0 left-0 right-0 h-16 z-10 m-4 rounded-xl backdrop-blur-sm border border-indigo-500/40  bg-indigo-500/20"
+    >
+      <nav class="nav">
+        <ul class="h-full flex gap-8 justify-center items-center">
+          <li>
+            <a href="#home" class="group flex items-center py-3"
+              ><span
+                class="nunito-sans-light text-xs  font-medium uppercase tracking-widest flex items-center rounded-full bg-indigo-400/40 px-6 py-1.5 text-indigo-100"
+                >Sup</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#expierence" class="group flex items-center py-3">
+              <span
+                class="nunito-sans-light text-xs  font-medium uppercase tracking-widest text-slate-400"
+                >XP</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="group flex items-center py-3">
+              <span
+                class="nunito-sans-light text-xs  font-medium uppercase tracking-widest text-slate-400"
+                >Contact</span
+              ></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="section py-32">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="./videos/glitch-2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="content container">
+        <div class="flex items-center justify-center">
+          <button class="neon-button click-class">
+            Neon Button
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="expierence" class="section py-32">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="./videos/glitch-1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="content container">
+        <h2
+          class="text-7xl nunito-sans-normal tracking-wider text-slate-100 mb-6 p-6 border-l-8 border-l-indigo-900 click-class"
+        >
+          Experience
+        </h2>
+        <div class="backdrop-blur-md bg-slate-800/30 rounded-xl">
+          <ol class="group/list">
+            <li>
+              <div class="group relative grid gap-4 grid-cols-12">
+                <header
+                  class="z-10 py-20 pl-10 text-4xl text-slate-100 font-semibold uppercase tracking-wide nunito-sans-light col-span-3"
+                  aria-label="2024 to Present"
+                >
+                  <i>Smooth&nbsp;Ag</i> — <br />
+                  2024 - Now
+                </header>
+                <div
+                  class="z-10 col-span-9 py-8 px-20 border-l border-l-indigo-300/20"
+                >
+                  <h3 class="text-2xl leading-snug text-indigo-300">
+                    Senior Software Engineer
+                  </h3>
+                  <p class="mt-2 text-slate-400">
+                    <ul>
+                      <li class="text-sm text-slate-400 mb-2">- Spearheaded the development of RanchSync, a pioneering web application (React, TypeScript) and robust backend infrastructure, empowering farmers with remote management capabilities for RanchRover robots.</li>
+                      <li class="text-sm text-slate-400 mb-2">- Architected and implemented a dynamic scheduling system, automating feeding missions and improving operational <b>efficiency by 30%</b>.</li>
+                      <li class="text-sm text-slate-400 mb-2">- Engineered a real-time data pipeline leveraging ROS2 and MQTT protocols, facilitating the seamless capture and transmission of live GPS, vitals, and sensor data from RanchRover robots.</li>
+                      <li class="text-sm text-slate-400">- Integrated advanced algorithms for precise cattle counting and anomaly detection, enhancing herd management and health monitoring.</li>
+                    </ul>
+                  </p>
+                  <ul
+                    class="mt-2 flex flex-wrap"
+                    aria-label="Technologies used"
+                  >
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        TypeScript
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        Python
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        ROS2
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        MQTT
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        WebSockets
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="group relative grid gap-4 grid-cols-12 border-t border-t-indigo-300/20"
+              >
+                <div
+                  class="z-10 col-span-9 py-8 px-20 border-r border-r-indigo-300/20"
+                >
+                  <h3 class="text-2xl leading-snug text-indigo-300">
+                    Senior Software Engineer
+                  </h3>
+                  <p class="mt-2 text-slate-400">
+                    <ul>
+                      <li class="text-sm text-slate-400 mb-2">- Spearheaded the development of RanchSync, a pioneering web application (React, TypeScript) and robust backend infrastructure, empowering farmers with remote management capabilities for RanchRover robots.</li>
+                      <li class="text-sm text-slate-400 mb-2">- Architected and implemented a dynamic scheduling system, automating feeding missions and improving operational <b>efficiency by 30%</b>.</li>
+                      <li class="text-sm text-slate-400 mb-2">- Engineered a real-time data pipeline leveraging ROS2 and MQTT protocols, facilitating the seamless capture and transmission of live GPS, vitals, and sensor data from RanchRover robots.</li>
+                      <li class="text-sm text-slate-400">- Integrated advanced algorithms for precise cattle counting and anomaly detection, enhancing herd management and health monitoring.</li>
+                    </ul>
+                  </p>
+                  <ul
+                    class="mt-2 flex flex-wrap"
+                    aria-label="Technologies used"
+                  >
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        TypeScript
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        Python
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        ROS2
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        MQTT
+                      </div>
+                    </li>
+                    <li class="mr-1.5 mt-2">
+                      <div
+                        class="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300"
+                      >
+                        WebSockets
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <header
+                  class="z-10 py-20 pl-10 text-4xl text-slate-100 font-semibold uppercase tracking-wide nunito-sans-light col-span-3"
+                  aria-label="2024 to Present"
+                >
+                  <i>Bestow</i> — <br />
+                  2021 - 2024
+                </header>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section py-32">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="./videos/glitch-face.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="content container">
+        <h2
+        class="text-7xl nunito-sans-normal tracking-wider text-slate-100 mb-6 p-6 border-l-8 border-l-indigo-900"
+      >
+        Contact
+      </h2>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>

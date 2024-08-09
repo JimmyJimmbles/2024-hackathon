@@ -1,0 +1,123 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rubik-light {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rubik-normal {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-bold {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nunito-sans-light {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+.nunito-sans-normal {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+.nunito-sans-bold {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}
+
+.content {
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+  /* text-align: center; */
+  /* top: 50%;
+  transform: translateY(-50%); */
+}
+
+/* .text-primary {
+  color: #5375fd;
+} */
+
+.active {
+  color: #5375fd;
+}
+
+.test {
+  filter: drop-shadow(0 0 6px rgba(55, 48, 163, 0.35));
+}
+
+.neon-button {
+  position: relative;
+  padding: 16px 32px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid rgba(99, 102, 241, 0.7);
+  background-color: rgba(31, 41, 55, 0.5); /* Slightly dark background */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.5), 0 0 40px rgba(99, 102, 241, 0.5),
+    0 0 60px rgba(99, 102, 241, 0.5);
+  transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 30px rgba(99, 102, 241, 0.8), 0 0 60px rgba(99, 102, 241, 0.8),
+    0 0 90px rgba(99, 102, 241, 0.8);
+}
